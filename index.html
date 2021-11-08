@@ -15,47 +15,56 @@
 <body>
     <header>
         <img src="images/forsidelille.png" class="headerimg" alt="Klank efterskole header">
-        <img src="images/logoke.png" class="logo" alt="klank efterskole logo">
-        <h2>Hvad spiser vi her?</h2>
+        <h2>HJERTET AF EFTERSKOLEN</h2>
         <div class="flex">
-            <p class="bobtekst">psst.. scroll <br> ned her!</p>
-
-            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob shake-bottom">
-        </div>
+        <p class="bobtekst">psst.. scroll <br> ned her!</p>
         <img src="images/arrow.png" alt="pil" class="arrow">
+        <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob shake-bottom"> 
+    </div>
+    
     </header>
     <main>
+
+    <!-- HER STARTER SIDE 2 - PROMOVIDEO  -->
         <div class="flex2" id="side2">
-            <h3>Velkommen i køkkenet!</h3>
-            <p class="mellemtekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis, earum,
-                sapiente natus adipisci architecto debitis libero ipsam pariatur harum culpa recusandae mollitia,
-                expedita eligendi minus maiores? Laborum, soluta suscipit.</p>
-            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob2">
+         
+          <div class="flexbob">
+            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob2" id="bob2">
             <img src="images/arrow.png" alt="pil" class="arrow2">
-            <p class="bobtekst2">mød os her!</p>
-            <video src="/images/kepromo.mp4" type="video/mp4" id="video" class="video">
-            </video>
+            <p class="bobtekst2">kom med i køkkenet!</p>
+            </div>
+        <video src="/images/kepromo.mp4" type="video/mp4" id="video" class="video">
+        </video> 
+    </div>
+          
+
+        <!-- HER STARTER SIDE 3 - MADPLAN  -->
+    <div class="flex3" id="side3">
+        <div class="linjeflex">
+            <img src="images/redskaber.png" alt="køkkenredskaber" class="linje">
+        </div>
+        <h3>Hvad skal vi lave til middag i dag?</h3>
+
+        <div class="tallerknerflex">
+            <button class="tallerken" id="gris" type="submit"><img src="images/test.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="fisk" type="submit"><img src="images/test.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="ko" type="submit"><img src="images/test.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="kylling" type="submit"><img src="images/test.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="vegetar" type="submit"><img src="images/test.png" alt="mad" class="tallerkenimg"></button>
+        </div>
+            
+
+        <div class="flexbob3">
+            <p class="bobtekst3">Du må helt selv vælge!</p>
+            <img src="images/arrow.png" alt="pil" class="arrow3">
+            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob3" id="bob3">
         </div>
 
-        <ul class="ulbar">
-            <li><a href="#side2"><img src="images/jordbaer.png" class="progressbar" id="2"
-                        alt="Frugt og bær progressbar"></a></li>
-            <li><img src="images/peach.png" class="progressbar" id="3" alt="Frugt og bær progressbar"></li>
-            <li><img src="images/vandmelon.png" class="progressbar" id="4" alt="Frugt og bær progressbar"></li>
-            <li><img src="images/apple.png" class="progressbar" id="5" alt="Frugt og bær progressbar"></li>
-            <li><img src="images/grape.png" class="progressbar" id="6" alt="Frugt og bær progressbar"></li>
-            <li><img src="images/banan.png" class="progressbar" id="7" alt="Frugt og bær progressbar"></li>
-        </ul>
+        <div class="output" id="output"></div>
 
-        <div class="flex3" id="side3">
-            <h3>Kosten på efterskolen</h3>
-            <p class="mellemtekst3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis, earum,
-                sapiente natus adipisci architecto debitis libero ipsam pariatur harum culpa recusandae mollitia,
-                expedita eligendi minus maiores? Laborum, soluta suscipit.</p>
+    </div>
 
-
-        </div>
-
+<!-- HER STARTER SIDE 4 - SPISESALEN  -->
 
         <div class="flex4" id="side4">
             <div class="brocolli-bobflex">
@@ -73,7 +82,15 @@
         </div>
 
 
-
+    <!-- HER STARTER PROGRESSBAR  -->
+    <ul class="ulbar">
+        <li><a href="#side2"><img src="images/jordbaer.png" class="progressbar" id="2" alt="Frugt og bær progressbar"></a></li>
+        <li><img src="images/peach.png" class="progressbar" id="3" alt="Frugt og bær progressbar"></li>
+        <li><img src="images/vandmelon.png" class="progressbar" id="4" alt="Frugt og bær progressbar"></li>
+        <li><img src="images/apple.png" class="progressbar" id="5" alt="Frugt og bær progressbar"></li>
+        <li><img src="images/grape.png" class="progressbar" id="6" alt="Frugt og bær progressbar"></li>
+        <li><img src="images/banan.png" class="progressbar" id="7" alt="Frugt og bær progressbar"></li>
+    </ul>
 
     </main>
     <script src="javascript/index-java.js"></script>
