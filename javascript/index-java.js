@@ -27,6 +27,10 @@ const bob2 = document.getElementById("bob2");
 const bob3 = document.getElementById("bob3");
 const side4 = document.getElementById("side4");
 const melon = document.getElementById("4");
+const side7 = document.getElementById("side7");
+const banan = document.getElementById("7")
+const bob7 = document.getElementById("bob7");
+const logo = document.getElementById("farvellogo");
 
 side2.addEventListener("mouseover", function(){
     jordbaer.classList.add("scale")
@@ -45,15 +49,26 @@ side3.addEventListener("mouseover", function(){
 
 side3.addEventListener("mouseout", function(){
     peach.classList.remove("scale")
+    bob3.classList.remove("shake-bottom")
 })
 
 side4.addEventListener("mouseover", function(){
-    melon.classList.add("scale")
-
+    melon.classList.add("scale")  
 })
 
 side4.addEventListener("mouseout", function(){
     melon.classList.remove("scale")
+})
+
+side7.addEventListener("mouseover", function(){
+    banan.classList.add("scale")  
+    bob7.classList.add("shake-bottom")
+    logo.classList.add("slide-in-right")
+})
+
+side7.addEventListener("mouseout", function(){
+    banan.classList.remove("scale")
+    bob7.classList.remove("shake-bottom")
 })
 
 // Javascript for side 3 "Vælg en ret" 
