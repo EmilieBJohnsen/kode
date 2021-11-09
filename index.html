@@ -10,6 +10,10 @@
     <link href="css/spisesal.css" rel="stylesheet">
     <link href="css/afslutning.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/gbs2mod.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
     <title>Klank efterskole | Køkken og kost</title>
 </head>
 
@@ -67,22 +71,32 @@
         </div>
     </div>
 
-<!-- HER STARTER SIDE 4 - SPISESALEN  -->
+   <!-- HER STARTER SIDE 4 - SPISESALEN  -->
 
-        <div class="flex4" id="side4">
-            <div class="brocolli-bobflex">
-                <img src="images/broccoli-bob.png" class="bob4" alt="Broccoli bob guider brugeren">
-                <img src="images/arrow.png" alt="Pil til tekst" class="arrow4">
-                <p class="bobtekst4">Sæt dig i spisesalen og vær en del af fælleskabet!</p>
-            </div>
-            <div class="spisesal">
-                <img src="images/spisesal.png" class="illuspisesal"
-                    alt="Illustration af spisesalen på Klank Efterskole">
-            </div>
-            <div class="knaptilvideo">
-                <button class="styleb">360</button>
+   <div class="flex4" id="side4">
+    <div class="brocolli-bobflex" id="bb">
+        <img src="images/broccoli-bob.png" class="bob4" alt="Broccoli bob guider brugeren">
+        <img src="images/arrow.png" alt="Pil til tekst" class="arrow4">
+        <p class="bobtekst4">Sæt dig i spisesalen og vær en del af fælleskabet!</p>
+    </div>
+    <div class="spisesal" id="spislyd">
+        <img src="images/spisesal.png" class="illuspisesal"
+            alt="Illustration af spisesalen på Klank Efterskole">
+    </div>
+    <div class="knaptilvideo">
+        <button class="styleb" id="myBtn">360°</button>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-body">
+                <span class="close">&times;</span>
+                <div class="styleinside">
+                    <div id="panorama"></div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
 
     <!-- HER STARTER SIDE 7 - AFSLUTNING  -->
 <div class="flex7" id="side7">
@@ -113,6 +127,8 @@
 
     </main>
     <script src="javascript/index-java.js"></script>
+    <script src="javascript/360video.js"></script>
+    <script src="javascript/baggrundslyd.js"></script>
 </body>
 
 </html>
